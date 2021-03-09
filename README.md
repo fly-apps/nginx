@@ -4,7 +4,7 @@ This is useful for sending requests for many hostnames to one origin.
 
 ## Configuring
 
-You will need to edit the `nginx.conf` file, [lines 31 through 38](https://github.com/fly-apps/nginx/blob/master/nginx.conf#L38).
+You will need to edit the `nginx.conf` file, [lines 31 through 38](https://github.com/fly-apps/nginx/blob/master/nginx.conf#L31-L38).
 
 1. Set your origin URL, this could be a Heroku app, or a Kubernetes ingress address, or just an IP address on a server you run elsewhere.
 2. Configure the upstream host header
